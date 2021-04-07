@@ -5,3 +5,7 @@ html {
 .column {
   padding: 1.25rem;
 }
+
+.card {
+  margin-bottom: 2.5rem;
+}
