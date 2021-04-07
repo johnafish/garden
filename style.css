@@ -8,4 +8,5 @@ html {
 
 .card {
   margin-bottom: 2.5rem;
+  max-width: 800px;
 }
