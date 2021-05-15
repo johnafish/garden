@@ -1,13 +1,13 @@
-html {
-  background: #41980a;
+html, body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #ebeb9d; 
 }
 
-.column {
-  padding: 1.25rem;
-}
-
-.card {
-  margin: 0px auto;
-  margin-bottom: 2.5rem;
-  max-width: 800px;
+#canvas {
+    background-color: rgb(255,255,204);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
