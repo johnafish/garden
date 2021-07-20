@@ -147,7 +147,7 @@ function nextGen() {
         var genes = [];
         
         for (let j = 0; j < NUM_GENES; j++) {
-            // choose random gene MUTATION_RATE % of time (currently 5%)
+            // choose random gene MUTATION_RATE % of time (currently 2%)
             if (Math.random() < MUTATION_RATE) {
                 genes.push([Math.random()-0.5, Math.random()-0.5]);
             }
