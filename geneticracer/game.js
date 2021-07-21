@@ -138,9 +138,9 @@ function nextGen() {
     var newBalls = [];
     for (let i = 0; i < NUM_BALLS; i++) {
         // dad 
-        var d = candidates[Math.floor(Math.random() * candidates.length)];
+        var d = candidates[Math.ceil(Math.random() * (candidates.length-1))];
         // mom
-        var m = candidates[Math.floor(Math.random() * candidates.length)];
+        var m = candidates[Math.ceil(Math.random() * (candidates.length-1))];
         // baby
         var b = new Ball(395, 25, ctx);
         // baby's genes
